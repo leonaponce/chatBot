@@ -26,6 +26,14 @@ which is considered the stable production version.
 https://stackoverflow.com/questions/9780717/bash-pip-command-not-found
 
 #Install nltk
+https://github.com/googleapis/google-cloud-python/issues/3884
+
+You can't overwrite some packages owned by system Python on OS X (i.e. the python binary that lives in /System/Library/Frameworks/Python.framework/Versions/2.7/..., which you can see if you ask for sys.executable in the interpreter). Using system Python on OS X is not really a good idea, because it can't be updated. Instead, I recommend one of the following approaches (in this order):
+
+using pyenv so you can manage your own Python install
+installing directly with .pkg files from python.org
+using conda / Anaconda / Miniconda
+
 
 
 
