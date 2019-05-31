@@ -5,3 +5,35 @@ $ source my_env/bin/activate
 Your prompt will now be prefixed with the name of your environment, in this case it is called my_env:
 
 https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-macos
+
+/Users/leonaadriennestephanieponce/virtualenvironment/my_chatbot/bin/activate
+
+sudo update-alternatives --install /usr/bin/
+
+sudo update-alternatives --install /my_chatbot/bin/python python /my_chatbot/bin/python2.7
+
+/Users/leonaadriennestephanieponce/virtualenvironment/my_chatbot/bin/python
+
+(.venv) Leonas-MacBook-Air:my_chatbot leonaadriennestephanieponce$ pwd
+/Users/leonaadriennestephanieponce/virtualenvironment/my_chatbot
+
+
+https://stackoverflow.com/questions/5846167/how-to-change-default-python-version
+
+Change Python version
+
+https://weknowinc.com/blog/running-multiple-python-versions-mac-osx
+Checking Python version
+
+
+
+****HOW I FINALLY SET UP environment****
+
+   $ virtualenv -p /usr/bin/python2.7 venv
+
+   $ source venv/bin/activate
+
+
+get back here
+/Users/leonaadriennestephanieponce/virtualenvironment/my_chatbot/venv
+
