@@ -1,0 +1,7 @@
+To use this environment, you need to activate it, which you can do by typing the following command that calls the activate script:
+
+$ source my_env/bin/activate
+
+Your prompt will now be prefixed with the name of your environment, in this case it is called my_env:
+
+https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-macos
